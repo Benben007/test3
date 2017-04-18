@@ -27,7 +27,7 @@ function getData3(connection, keywork, callback){
 
 
 function getData1(connection, keywork, callback){
-	query1='SELECT Date_reg as Date_reg, Info as Info, A as A, B as B, L as L, C as C, D as D, E as E, F as F, G as G, H as H, I as I, J as J, K as K FROM ' + mont + ''
+	query1='SELECT Date_reg as Date_reg, Info as Info, A as A, B as B, L as L, C as C, D as D, E as E, F as F, G as G, H as H, I as I, J as J, K as K FROM Apr17'
 	console.log(1)
 	connection.query(query1, callback);
 }
