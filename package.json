@@ -1,7 +1,7 @@
 {
   "name": "chart2",
   "version": "1.0.0",
-  "main": "Dashboard.js",
+  "main": "test3.js",
   "dependencies": {
     "express": "^4.14.0",
     "mustache": "^2.2.1",
