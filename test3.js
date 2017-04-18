@@ -27,14 +27,14 @@ function getData3(connection, keywork, callback){
 
 
 function getData1(connection, keywork, callback){
-	query1='SELECT Date_reg as Date_reg, Info as Info, A as A, B as B, L as L, C as C, D as D, E as E, F as F, G as G, H as H, I as I, J as J, K as K FROM Apr17'
+	query1='SELECT Date_reg as Date_reg, Info as Info, A as A, B as B, L as L, C as C, D as D, E as E, F as F, G as G, H as H, I as I, J as J, K as K FROM ' + mont + ''
 	console.log(1)
 	connection.query(query1, callback);
 }
 
 
 function getData2(connection, keywork, callback){
-	query='select SUM(A) as Total_A, SUM(B) as Total_B, SUM(L) as Total_L, SUM(C) as Total_C, SUM(D) as Total_D, SUM(E) as Total_E, SUM(F) as Total_F, SUM(G) as Total_G, SUM(H) as Total_H, SUM(I) as Total_I, SUM(J) as Total_J, SUM(K) as Total_K from Apr17'
+	query='select SUM(A) as Total_A, SUM(B) as Total_B, SUM(L) as Total_L, SUM(C) as Total_C, SUM(D) as Total_D, SUM(E) as Total_E, SUM(F) as Total_F, SUM(G) as Total_G, SUM(H) as Total_H, SUM(I) as Total_I, SUM(J) as Total_J, SUM(K) as Total_K from ' + Mont + ''
 	console.log(2)
 	connection.query(query, callback);
 }
