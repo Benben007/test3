@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="scriptClienttest3.js"></script>
+    <script>
+    	var data2 = {{{data2}}};
+     	var data1 = {{{data1}}};
+      
+    </script>
+
+
+
+
+		<style>
+		 	img { 
+                display: block;
+                margin-left: auto;
+                 margin-right: auto;
+                 align: middle;
+                margin-top: 5em;
+                margin-bottom: 2em;
+                border: 6px solid black;
+                            
+            }
+            p { 
+                font-family: Lato Light;
+                margin-top: 1em;
+             }   
+
+            h1 { 
+                font-family: Lato Light;
+                margin-top: 1em;
+             }  
+
+        </style>
+	</head>
+  <body>
+
+     
+
+  		<table align="center" border="1"> 
+          <form name="Form">
+
+       <img src="http://ii.alatest.com/css/staticpages/contact.jpg" alt="Test Image" />
+       <div class="form-group row">
+        <label for="example-date-input" class="col-xs-2 col-form-label">Month registration</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="string" name="mont" placeholder="ex:Okt16" id="example-date-input">
+        </div>
+    </div>
+
+       <div class="form-group row">
+  			<label for="example-date-input" class="col-xs-2 col-form-label">Date</label>
+  			<div class="col-xs-10">
+    			<input class="form-control" type="string" name="numberdate" placeholder="ex:2016-01-30" id="example-date-input">
+  			</div>
+		</div>
+        <div class="form-group row">
+        <label for="example-date-input" class="col-xs-2 col-form-label">Info</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="string" name="inf" placeholder="ex:Ica" id="example-date-input">
+        </div>
+    </div>
+		<div class="form-group row">
+  			<label for="example-number-input" class="col-xs-2 col-form-label">Insurance car:</label>
+  			<div class="col-xs-10">
+    			<input class="form-control" type="number" value="0" name="number1" step="0.01" id="example-number-input">
+  			</div>
+		</div>
+		<div class="form-group row">
+  			<label for="example-number-input" class="col-xs-2 col-form-label">Rent:</label>
+  			<div class="col-xs-10">
+    			<input class="form-control" type="number" value="0" name="number2" step="0.01" id="example-number-input">
+  			</div>
+		</div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">El:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number12" step="0.01" id="example-number-input">
+        </div>
+    </div>
+		<div class="form-group row">
+  			<label for="example-number-input" class="col-xs-2 col-form-label">Food:</label>
+  			<div class="col-xs-10">
+    			<input class="form-control" type="number" value="0" name="number3" step="0.01" id="example-number-input">
+  			</div>
+		</div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">Leisure:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number4" step="0.01" id="example-number-input">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">Phone:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number5" step="0.01" id="example-number-input">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">Gas:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number6" step="0.01" id="example-number-input">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">Transport:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number7" step="0.01" id="example-number-input">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">Sport:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number8" step="0.01" id="example-number-input">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">Insurance:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number9" step="0.01" id="example-number-input">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">CSN:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number10" step="0.01" id="example-number-input">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="example-number-input" class="col-xs-2 col-form-label">Others:</label>
+        <div class="col-xs-10">
+          <input class="form-control" type="number" value="0" name="number11" step="0.01" id="example-number-input">
+        </div>
+    </div>
+    
+    <input type="hidden" name="initiate" value="start"><br/>
+		
+    <div class="checkbox">
+        <label>
+          <input type="checkbox" name="del"> Delete
+        </label>
+      </div>
+    <button type="submit" value="Submit" class="btn btn-primary">Enter</button>
+    <!---<input type="hidden" name="del" value="del"><br/>
+      <button type="button" value="Del" class="btn btn-primary">Delete</button> -->
+  </form> 
+  <br/><br/>
+    
+  
+ <div class="dropdown">
+           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose month to visualize
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+              <li><a href="?mont=Okt16" type="string" name="mont">October 2016</a></li>
+              <li><a href="?mont=Nov16" type="string" name="mont">November 2016</a></li>
+              <li><a href="?mont=Dec16" type="string" name="mont">December 2016</a></li>
+              <li><a href="?mont=Jan17" type="string" name="mont">January 2017</a></li>
+              <li><a href="?mont=Feb17" type="string" name="mont">February 2017</a></li>
+              <li><a href="?mont=Mar17" type="string" name="mont">Mars 2017</a></li>
+              <li><a href="?mont=Apr17" type="string" name="mont">April 2017</a></li>
+              <li><a href="?mont=Maj17" type="string" name="mont">May 2017</a></li>
+              <li><a href="?mont=Jun17" type="string" name="mont">June 2017</a></li>
+              <li><a href="?mont=Jul17" type="string" name="mont">July 2017</a></li>
+              <li><a href="?mont=Aug17" type="string" name="mont">August 2017</a></li>
+              <li><a href="?mont=Sep17" type="string" name="mont">September 2017</a></li>
+              <li><a href="?mont=Okt17" type="string" name="mont">October 2017</a></li>
+              <li><a href="?mont=Nov17" type="string" name="mont">November 2017</a></li>
+              <li><a href="?mont=Dec17" type="string" name="mont">December 2017</a></li>
+       
+           </ul>
+      </div>
+
+  <!---<p>The result is <strong>{{{data1}}}</strong>. The total amount in the month is <strong>{{{data2}}}</strong>.</p>-->
+  <h1>The total amount spent this month is <strong>{{grandtotal}}kr</strong></h1>
+
+  <div id="chart_div"></div>
+  <div id="table_div"></div>
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+
+
+  </body>
+ </html>
